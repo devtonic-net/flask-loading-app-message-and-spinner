@@ -1,8 +1,8 @@
 # Flask App with Loading Message & Animation
 
-This is a simple Flask app that demonstrates how to display a „loading...” message and/or a spinning graphic while a time-consuming function is executed. The purpose of this is to provide users with feedback while they wait for a process to complete. This app has the advantage of not requiring the use of AJAX to display a loading message or spinning graphic.
+This is a simple Flask app that demonstrates how to display a „loading...” message and/or a spinning graphic while a time-consuming function is executed. The purpose of this is to provide users with feedback while they wait for a process to complete. 
 
-Instead, it leverages the Flask session object to store the user's data while the time-consuming function is executed, and uses Jinja2 templates to display the loading message and/or spinning graphic. This approach simplifies the implementation of the loading feedback and avoids the added complexity of asynchronous requests using AJAX.
+This app has the advantage of not requiring the use of AJAX to display a loading message or spinning graphic. Instead, it leverages the Flask session object to store the user's data while the time-consuming function is executed, and uses Jinja2 templates to display the loading message and/or spinning graphic. This approach simplifies the implementation of the loading feedback and avoids the added complexity of asynchronous requests using AJAX.
 
 ## The app has three routes
 
